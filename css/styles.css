@@ -12,6 +12,7 @@ font-style: normal;
 color: var(--color-primary);
 background-color: var(--color-background);
 font-size: 14px;
+letter-spacing: 0.03em;
 }
 .primary-button{
 color: var(--color-inverted);
@@ -47,7 +48,6 @@ font-weight: 500;
 font-size: 16px;
 line-height: 1.63;
 text-align: center;
-letter-spacing: 0.03em;
 border-style: none;
 border-color: var(--color-inverted);
 cursor: pointer;
@@ -102,7 +102,6 @@ color: var(--color-brand);
 font-weight: 400;
 font-size: 14px;
 line-height: 1.8;
-letter-spacing: 0.03em;
 text-decoration: none;
 list-style: none;
 font-style: normal;
@@ -134,7 +133,6 @@ color: #FFFFFF;
 font-weight: 700;
 font-size: 14px;
 line-height: 1.2;
-letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var(--color-secondary);
 }
@@ -143,7 +141,6 @@ font-weight: 700;
 font-size: 36px;
 line-height: 1.2;
 text-align: center;
-letter-spacing: 0.03em;
 color: var(--color-secondary);
 }
 .portfolio-element{
@@ -157,7 +154,6 @@ color: var(--color-secondary);
 font-weight: 400;
 font-size: 16px;
 line-height: 1.8;
-letter-spacing: 0.03em;
 }
 .portfolio-frame{
 box-sizing: border-box;
@@ -218,22 +214,23 @@ height: 140px;
 }
 .p-text{
 line-height: 1.71;
+font-weight: 400;
 }
 .p-text-teammember{
 line-height: 1.17;
+font-size: 16px;
+font-weight: 400;
 }
 .teammember-name{
 font-weight: 500;
 font-size: 16px;
 line-height: 1.17;
-letter-spacing: 0.03em;
 color: var(--color-secondary);
 }
 .footer-link-contacts{
 font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
-letter-spacing: 0.03em;
 text-decoration: none;
 list-style: none;
 font-style: normal;
