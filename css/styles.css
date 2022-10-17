@@ -440,13 +440,11 @@ margin-top: 94px;
 margin-bottom: 94px;
 background-color: var(--color-inverted);
 padding: 0px;
-margin: 0px;
 }
 .portfolio-filter-elements{
 margin-right: auto;
 margin-left: auto;
 margin-top: 50px;
-margin-bottom: 0px;
 display: flex;
 flex-wrap: wrap;
 gap: 30px;
