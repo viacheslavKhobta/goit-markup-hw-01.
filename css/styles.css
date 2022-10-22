@@ -23,7 +23,6 @@ padding: 0px;
 }
 .page-header{
     border-bottom: 1px solid #ECECEC;
-    margin-bottom: 20px;
 }
 .container-nav{
     display: flex;
@@ -38,6 +37,8 @@ padding: 0px;
     margin-left: auto;
     margin-right: auto;
     width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .primary-button{
 display: inline-block;
@@ -219,13 +220,14 @@ font-size: 18px;
 line-height: 2;
 letter-spacing: 0.06em;
 color: var(--color-secondary);
-margin: 20px 24px 4px 24px;
+margin-bottom: 4px;
+margin-top: 0px;
 }
 .portfolio-group{
 font-weight: 400;
 font-size: 16px;
 line-height: 1.8;
-margin: 0px 24px 20px 24px;
+margin: 0px;
 }
 .portfolio-frame{
 box-sizing: border-box;
@@ -354,8 +356,6 @@ background: #2F303A;
 padding-top: 60px;
 margin: 0px;
 padding-bottom: 60px;
-padding-left: 15px;
-padding-right: 15px;
 }
 .p-text{
 line-height: 1.71;
@@ -363,25 +363,26 @@ font-weight: 400;
 margin: 0px;
 }
 .p-text-teammember{
-text-align: center;
 line-height: 1.17;
 font-size: 16px;
 font-weight: 400;
 margin: 0px;
 padding: 0px;
-margin-bottom: 30px;
 }
 .teammember-name{
 width: 270px;
-text-align: center;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.17;
 color: var(--color-secondary);
 margin: 0px;
 padding: 0px;
-margin-top: 30px;
 margin-bottom: 10px;
+}
+.container-teammember{
+text-align: center;
+margin-top: 30px;
+margin-bottom: 30px;
 }
 .footer-link-contacts{
 font-weight: 400;
@@ -401,7 +402,7 @@ color: var(--color-brand);
 color: var(--color-brand);
 }
 .section-teammembers{
-    background-color: #F5F4FA;
+background-color: #F5F4FA;
 padding-top: 94px;
 padding-bottom: 94px;
 }
@@ -412,8 +413,7 @@ margin-bottom: 9px;
 margin-bottom: 0px;
 }
 .section-cons{
-    width: 1200px;
-    padding-top: 74px;
+padding-top: 74px;
 padding-bottom: 94px;
 background-color: var(--color-inverted);
 }
@@ -425,7 +425,6 @@ width: 370px;
 margin-right: 0px;  
 }
 .section-activities{
-    width: 1200px;
     margin: 0pt;
 padding-bottom: 94px;
 background-color: var(--color-inverted);
@@ -435,25 +434,29 @@ align-items: center;
 margin-top: 20px;
 }
 .section-filters{
-width: 1200px;
-margin-top: 94px;
-margin-bottom: 94px;
+padding-top: 94px;
+padding-bottom: 94px;
 background-color: var(--color-inverted);
-padding: 0px;
+margin: 0px;
 }
 .portfolio-filter-elements{
 margin-right: auto;
 margin-left: auto;
 margin-top: 50px;
+margin-bottom: 0px;
 display: flex;
 flex-wrap: wrap;
 gap: 30px;
 list-style: none;
 padding-left: 0px;
 }
+.portfolio-item{
+padding: 20px 24px;
+}
 .container-res{    
 padding-left: 15px;
 padding-right: 15px;
 margin-left: auto;
 margin-right: auto;
+width: 1200px;
 }
