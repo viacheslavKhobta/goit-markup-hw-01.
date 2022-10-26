@@ -32,6 +32,7 @@ padding: 0px;
     padding-left: 15px;
     padding-right: 15px;
     align-items: center;
+    justify-content: center;
 }
 .container-footer{
     display: flex;
@@ -190,6 +191,9 @@ fill: var(--color-brand);
 .header-link-contacts:focus {
 color: var(--color-brand);
 }
+.header-link-contacts:focus .list-header-icon{
+    color: var(--color-brand);
+    }
 .footer-link{
 font-weight: 400;
 line-height: 1.8;
@@ -214,9 +218,9 @@ background-repeat: no-repeat;
 background-position: center;
 background-size: auto;
 max-width: 1600px;
-padding-bottom: 220px;
+padding-bottom: 200px;
 align-items: center;
-padding-top: 180px;
+padding-top: 200px;
 }
 .initial-section{
 background: #F5F5F5;
@@ -480,7 +484,7 @@ margin-bottom: 10px;
 .container-teammember{
 text-align: center;
 padding-top: 30px;
-padding-bottom: 30px;
+padding-bottom: 16px;
 }
 .footer-link-contacts{
 font-weight: 400;
