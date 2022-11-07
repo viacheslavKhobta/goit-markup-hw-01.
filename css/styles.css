@@ -192,8 +192,8 @@ fill: var(--color-brand);
 color: var(--color-brand);
 }
 .header-link-contacts:focus .list-header-icon{
-    color: var(--color-brand);
-    }
+fill: var(--color-brand);
+}
 .footer-link{
 font-weight: 400;
 line-height: 1.8;
@@ -216,6 +216,7 @@ background: #C4c4c4;
 background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('../images/background.jpg');
 background-repeat: no-repeat;
 background-position: center;
+margin: auto;
 background-size: auto;
 max-width: 1600px;
 padding-bottom: 200px;
